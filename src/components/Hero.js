@@ -12,7 +12,7 @@ import seven from '../images/7.jpg';
 import eight from '../images/8.jpg';
 import nine from '../images/9.jpg';
 
-export default function Hero() {
+export default function Hero(props) {
 	const settings = {
 		dots: true,
 		infinite: true,
@@ -53,7 +53,7 @@ export default function Hero() {
 		],
 	};
 	return (
-		<section>
+		<section className={props.darkMode ? "dark" : ""}>
 			<div className='hero-photo all'>
 				<Slider {...settings}>
 					<div>

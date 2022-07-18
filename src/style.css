@@ -8,11 +8,16 @@ body {
 	overflow-x: hidden;
 }
 
+div{
+	width: 100%;
+}
+
 .gray {
 	color: #918e9b;
 }
 
 nav {
+	display: flex;
 	text-align: left;
 	padding: 20px;
 	background: #ffffff;
@@ -20,10 +25,81 @@ nav {
 }
 
 nav .logo {
+	display: flex;
 	margin-left: 15px;
 	font-family: 'Martel Sans', cursive;
 	font-weight: bold;
 	color: rgb(67, 101, 79);
+}
+
+nav.dark {
+    background-color: #cecbc3fe;
+}
+
+.toggler {
+    display: flex;
+    align-items: center;
+	justify-content: flex-end;
+}
+
+.toggler p {
+    font-size: 0.625rem;
+    font-weight: 600;
+}
+
+.toggler--slider {
+    width: 25px;
+    height: 13px;
+    background-color: #cecbc3fe;
+    border-radius: 2rem;
+    margin-inline: 7px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid transparent;
+    box-sizing: content-box;
+}
+
+nav.dark .toggler--slider {
+    border-color: white;
+    background-color: #F5F5F5;
+}
+
+.toggler--slider--circle {
+    height: 13px;
+    width: 13px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+nav.dark .toggler--slider--circle {
+    background-color: #cecbc3fe;
+
+}
+
+.toggler--light {
+    color: white;
+}
+
+nav.dark .toggler--light {
+    color: white;
+}
+
+.toggler--dark {
+    color: #cecbc3fe;
+}
+
+nav.dark .toggler-dark {
+    color: #FFFFFF;
+}
+
+nav.dark .toggler--slider {
+    justify-content: flex-end;
+}
+
+section.dark {
+    background-color: #dad9d3;
 }
 
 .slick-slide > div {
@@ -48,17 +124,16 @@ h2 {
 }
 
 .card {
-	position: relative;
 	display: inline-block;
 	margin: 0 auto;
 	font-family: 'Martel Sans';
 	padding: 20px;
-	width: 300px;
+	width: 500px;
 }
 
 .card--image {
-    width:  250px;
-    height: 200px;
+    max-width: 100%;
+    max-height: 250px;
     object-fit: cover;
 	border-radius: 5%;
 }

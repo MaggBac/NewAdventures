@@ -10,7 +10,7 @@ export default function Card(props) {
 					<FontAwesomeIcon className='card--star' icon={faGlobe} />
 					<span className='card--location'>{props.item.location}</span>
 				</p>
-				<a className='card--link' href={props.item.google} target="_blank">
+				<a className='card--link' href={props.item.google} target='_blank'>
 					View on Google Maps
 				</a>
 			</div>

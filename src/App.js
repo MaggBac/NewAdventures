@@ -6,17 +6,19 @@ import data from './data';
 
 export default function App() {
 	const info = data.map((item) => {
-		return (
-			<Card
-				key={item.id}
-				item={item}
-			/>
-		);
+		return <Card key={item.id} item={item}/>;
 	});
+
+	const [darkMode, setDarkMode] = React.useState(true)
+    
+    function toggleDarkMode() {
+        setDarkMode(newVal => !newVal)
+    }
+
 	return (
 		<div>
-			<Nav />
-			<Hero />
+			<Nav darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
+			<Hero darkMode={darkMode}/>
 			{info}
 		</div>
 	);
