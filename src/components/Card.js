@@ -17,7 +17,7 @@ export default function Card(props) {
 			<img src={`../images/${props.item.coverImg}`} className='card--image' />
 			<h3>{props.item.title}</h3>
 			<span className='card--date'>{props.item.date}</span>
-			<p>{props.item.description}</p>
+			<p className='card--description'>{props.item.description}</p>
 		</div>
 	);
 }
