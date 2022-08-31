@@ -1,7 +1,7 @@
 {
   "name": "booking",
   "version": "0.1.0",
-  "homepage":"https://MaggBac.github.io/NewAdvetures",
+  "homepage":"https://MaggBac.github.io/NewAdventures",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
