@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/NewAdventures/static/css/main.3eac5e20.css",
+    "main.js": "/NewAdventures/static/js/main.dfcc42e1.js",
+    "static/media/8.jpg": "/NewAdventures/static/media/8.70268fbd1c693f6cecb3.jpg",
+    "static/media/4.jpg": "/NewAdventures/static/media/4.40a8d9bd689c25000e1a.jpg",
+    "static/media/9.jpg": "/NewAdventures/static/media/9.783a847fb63350c96527.jpg",
+    "static/media/7.jpg": "/NewAdventures/static/media/7.a5578fc6811c0b1b13d6.jpg",
+    "static/media/6.jpg": "/NewAdventures/static/media/6.98e628fc44c3292df22d.jpg",
+    "static/media/1.jpg": "/NewAdventures/static/media/1.b95dd6499b803f2cc550.jpg",
+    "static/media/5.jpg": "/NewAdventures/static/media/5.94ad458d0650a5ab6b85.jpg",
+    "static/media/2.jpg": "/NewAdventures/static/media/2.d9329d719fc2b0069440.jpg",
+    "static/media/3.jpg": "/NewAdventures/static/media/3.86f5e744692183ad7022.jpg",
+    "static/media/slick.svg": "/NewAdventures/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/NewAdventures/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/NewAdventures/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/NewAdventures/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/NewAdventures/index.html",
+    "main.3eac5e20.css.map": "/NewAdventures/static/css/main.3eac5e20.css.map",
+    "main.dfcc42e1.js.map": "/NewAdventures/static/js/main.dfcc42e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3eac5e20.css",
+    "static/js/main.dfcc42e1.js"
+  ]
+}
