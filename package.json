@@ -1,6 +1,7 @@
 {
   "name": "booking",
   "version": "0.1.0",
+  "homepage":"https://MaggBac.github.io/NewAdvetures",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
@@ -17,6 +18,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -42,6 +45,7 @@
   },
   "devDependencies": {
     "file-loader": "^6.2.0",
+    "gh-pages": "^4.0.0",
     "url-loader": "^4.1.1"
   }
 }
